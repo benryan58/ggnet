@@ -58,7 +58,7 @@
 	if(is.null(size)) {
 		return(1)
 	} else {
-		return(net %v% size)
+		return(net %v% "size")
 	}
 }
 
